@@ -1,5 +1,3 @@
-moocminder.db
-
 *.py[cod]
 
 # C extensions
@@ -34,3 +32,6 @@ nosetests.xml
 # Mr Developer
 .mr.developer.cfg
 .project
+
+moocminder.db
+local_settings.py

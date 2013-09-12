@@ -156,6 +156,7 @@ THIRD_PARTY_APPS = (
 LOCAL_APPS = (
     'users',  # custom users app
     'moocscraper',
+    'open_news',
 )
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps

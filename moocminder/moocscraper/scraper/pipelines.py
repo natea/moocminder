@@ -12,7 +12,7 @@ class DjangoWriterPipeline(object):
 
     def process_item(self, item, spider):
         try:
-            item['moocsite'] = spider.ref_object
+            item['mooc_site'] = spider.ref_object
 
             checker_rt = SchedulerRuntime(runtime_type='C')
             checker_rt.save()

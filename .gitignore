@@ -33,5 +33,5 @@ nosetests.xml
 .mr.developer.cfg
 .project
 
-moocminder.db
+*.db
 local_settings.py
